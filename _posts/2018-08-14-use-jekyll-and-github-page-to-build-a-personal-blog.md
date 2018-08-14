@@ -12,7 +12,7 @@ tags: jekyll github-pages blog
 这是我的个人博客，是用 `jekyll` + `github page` 搭建起来的。
 
 然后还使用了 [`jekyll-theme-H2O`](https://github.com/kaeyleo/jekyll-theme-H2O) 这个主题。  
-目前就先这样吧，现在是离职状态，主要任务是学习，然后写写博文做记录。以后有空再自己写一个主题。
+目前就先这样吧，现在是离职状态，主要任务是学习，然后写写博文做记录。以后有空再自己写一个主题，也会慢慢地把自己以前的一些文章迁移过来。
 
 ---
 
