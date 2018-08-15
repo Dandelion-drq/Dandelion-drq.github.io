@@ -30,8 +30,8 @@ nightMode: false
 
 # Comments 评论功能
 comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  disqus: true
+  disqus_url: 'https://rqdeng.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -50,7 +50,7 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/Dandelion-drq'
-  douban: '//www.douban.com/people/69322958/'
+  douban: '//www.douban.com/people/Dandelion_drq/'
   zhihu: '//www.zhihu.com/people/Dandelion_H2o'
   jianshu: '//www.jianshu.com/u/fc14d8003cbf'
   weibo: '//weibo.com/ildandelion'

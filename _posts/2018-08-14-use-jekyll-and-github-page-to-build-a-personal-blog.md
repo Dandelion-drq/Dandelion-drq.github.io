@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '使用 jekyll + github page 搭建个人博客的记录'
+title: '使用 jekyll + github pages 搭建个人博客的记录'
 subtitle: '终于搭建起了个人博客，写下第一篇文章记录一下'
 date: 2018-08-14
 categories: 技术
@@ -9,7 +9,7 @@ tags: jekyll github-pages blog
 ---
 
 
-这是我的个人博客，是用 `jekyll` + `github page` 搭建起来的。
+这是我的个人博客，是用 `jekyll` + `github pages` 搭建起来的。
 
 然后还使用了 [`jekyll-theme-H2O`](https://github.com/kaeyleo/jekyll-theme-H2O) 这个主题。  
 目前就先这样吧，现在是离职状态，主要任务是学习，然后写写博文做记录。以后有空再自己写一个主题，也会慢慢地把自己以前的一些文章迁移过来。
@@ -20,8 +20,8 @@ tags: jekyll github-pages blog
 
 ## 1. 新建 `github.io` 项目
 
-其实 [`github page`](https://pages.github.com/) 有两个用途，大家可以在[官方网页](https://pages.github.com/)看到。其中一个是作为个人/组织的主页（每个账号只能有一个），另一个是作为 `github` 项目的项目主页（每个项目可以有一个）。
-而 `github page` 本身就支持 `jekyll` ，所以二者的结合使用非常方便。
+其实 [`github pages`](https://pages.github.com/) 有两个用途，大家可以在[官方网页](https://pages.github.com/)看到。其中一个是作为个人/组织的主页（每个账号只能有一个），另一个是作为 `github` 项目的项目主页（每个项目可以有一个）。
+而 `github pages` 本身就支持 `jekyll` ，所以二者的结合使用非常方便。
 
 这两种静态页面怎么生成在 [`https://pages.github.com/`](https://pages.github.com/) 这里都有详细步骤。
 
@@ -38,7 +38,7 @@ tags: jekyll github-pages blog
 网站跑起来了，但是里面没内容。当然我们可以自己写各个页面去丰富她。但是这样比较麻烦，弄个人博客我们主要关注的当然是写博文，而不想每次写一篇文章都要自己去排版一个页面。`jekyll` 就是可以帮助我们实现只要关注写文章本身，她会帮我们自动转化成静态页面。
 
 可以看一下官网的描述
-> Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
+> Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Pages 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
 
 支持 `markdown` ，非常方便。
 
@@ -115,3 +115,14 @@ categories: life
 至于每个主题怎么用最好还是看这个主题项目的说明，具体可能不太一样，我就不细说了。
 
 记得最后修改完在本地预览没问题后要 `git push` 到 `github` 上哦~~
+
+---
+
+参考链接：  
+[GitHub Pages](https://pages.github.com/)  
+[Jekyll文档](http://jekyllcn.com/docs/home/)  
+[快速在 Windows 上搭建 Jekyll 开发环境](https://walterlv.github.io/post/setup-jekyll-in-windows.html)
+
+---
+
+本文首发于我的个人网站【https://dandelion-drq.github.io】，转载请注明出处。
