@@ -3,7 +3,7 @@ layout: post
 title: '使用 jekyll + github pages 搭建个人博客的记录'
 subtitle: '终于搭建起了个人博客，写下第一篇文章记录一下'
 date: 2018-08-14
-categories: 技术
+categories: web
 cover: 'http://120.77.171.203/images/blog-img/0.jpg'
 tags: jekyll github-pages blog
 ---
