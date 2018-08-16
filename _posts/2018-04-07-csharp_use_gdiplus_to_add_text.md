@@ -14,7 +14,7 @@ excerpt: '本文介绍了 C# 如何使用 GDI+ 为图片添加文字，并且可
 
 需求是要做一个编辑文字的页面。用户在网页端写文字，文字区域是个矩形框，用户可以通过下方的拖动条调节文字大小。  
 如下图：  
-![](https://images2018.cnblogs.com/blog/893839/201804/893839-20180407113054308-1036993449.png)
+![](http://120.77.171.203/images/blog-img/9.png)
 
 提交数据的时候前端传文字区域的左上角和右下角定位给后台。因为前端的字体大小单位与后端没什么关系，所以不能直接传字体大小，也就是后端要根据矩形区域以及文字内容来自己推算用什么样的字体大小合适。
 
@@ -184,7 +184,8 @@ public float Height { get; set; }
 ---
 
 最终效果：
-![](https://images2018.cnblogs.com/blog/893839/201804/893839-20180407113133246-965758225.png)
+
+![](http://120.77.171.203/images/blog-img/10.png)
 
 ---
 
@@ -192,4 +193,4 @@ public float Height { get; set; }
 
 [C# 使用 GDI+ 画图](https://dandelion-drq.github.io/2018/04/01/use-gdiplus-to-draw-image-in-csharp.html)
 
-[C# 使用 GDI+ 给图片添加文字，并使文字自适应矩形区域](https://dandelion-drq.github.io/2018/04/07/csharp_use_gdiplus_to_add_text.html)
+[C# 使用 GDI+ 实现添加中心旋转(任意角度)的文字](https://dandelion-drq.github.io/2018/04/09/csharp_use_gdiplus_to_rotate_text.html)
