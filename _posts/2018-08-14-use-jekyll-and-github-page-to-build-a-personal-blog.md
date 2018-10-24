@@ -122,7 +122,3 @@ categories: life
 [GitHub Pages](https://pages.github.com/)  
 [Jekyll文档](http://jekyllcn.com/docs/home/)  
 [快速在 Windows 上搭建 Jekyll 开发环境](https://walterlv.github.io/post/setup-jekyll-in-windows.html)
-
----
-
-本文首发于我的个人网站【https://dandelion-drq.github.io】，转载请注明出处。
