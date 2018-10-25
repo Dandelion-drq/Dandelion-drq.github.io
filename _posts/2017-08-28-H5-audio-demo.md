@@ -2,7 +2,7 @@
 layout: post
 title: 'H5 audio 音频标签自定义样式修改以及添加播放控制事件'
 categories: 前端
-cover: 'http://120.77.171.203/images/blog-img/16.jpg'
+cover: 'http://120.77.171.203:8080/images/blog-img/16.jpg'
 tags: html css javascript
 excerpt: '本文介绍了如何对 Html5 <audio> 音频标签进行自定义样式修改以及添加播放控制事件'
 ---
@@ -11,7 +11,7 @@ excerpt: '本文介绍了如何对 Html5 <audio> 音频标签进行自定义样�
 需求要求这个音频标签首先要是可适配移动端浏览器的，音频样式就是参考微信做的。
 
 最终效果如下：
-![](http://120.77.171.203/images/H5-audio.gif)
+![](http://120.77.171.203:8080/images/H5-audio.gif)
 
 ---
 

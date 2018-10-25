@@ -4,7 +4,7 @@ title: '使用 jekyll + github pages 搭建个人博客的记录'
 subtitle: '终于搭建起了个人博客，写下第一篇文章记录一下'
 date: 2018-08-14
 categories: web
-cover: 'http://120.77.171.203/images/blog-img/0.jpg'
+cover: 'http://120.77.171.203:8080/images/blog-img/0.jpg'
 tags: jekyll github-pages blog
 ---
 
@@ -56,7 +56,7 @@ cd myblog
 
 创建成功后的项目目录是这样的
 
-![](http://120.77.171.203/images/blog-img/1.jpg)
+![](http://120.77.171.203:8080/images/blog-img/1.jpg)
 
 因为现在最新版(3.8.3)的 `jekyll new` 命令创建的项目默认已经用了主题了（可以在 `_config.yml` 配置文件下看到 `theme: minima` 这一行），因此我们要安装相应的依赖。
 
@@ -71,11 +71,11 @@ jekyll serve
 
 启动后应该能看到以下的输出
 
-![](http://120.77.171.203/images/blog-img/2.jpg)
+![](http://120.77.171.203:8080/images/blog-img/2.jpg)
 
 这时候我们就能在本地通过 `http://127.0.0.1:4000/` 来预览效果了。
 
-![](http://120.77.171.203/images/blog-img/3.jpg)
+![](http://120.77.171.203:8080/images/blog-img/3.jpg)
 
 PS：有一些预设的设置可以在 `_config.yml` 配置文件里面修改。
 
@@ -105,8 +105,8 @@ categories: life
 
 再启动一下 `jekyll serve` 就能看到效果了。
 
-![](http://120.77.171.203/images/blog-img/4.jpg)
-![](http://120.77.171.203/images/blog-img/5.jpg)
+![](http://120.77.171.203:8080/images/blog-img/4.jpg)
+![](http://120.77.171.203:8080/images/blog-img/5.jpg)
 
 ## 4. 使用 `jekyll` 主题美化网站
 

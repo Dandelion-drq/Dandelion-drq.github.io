@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 使用 GDI+ 画图'
 categories: 后台
-cover: 'http://120.77.171.203/images/blog-img/7.jpg'
+cover: 'http://120.77.171.203:8080/images/blog-img/7.jpg'
 tags: C#
 excerpt: ' 本文介绍了 C# 使用 GDI+ 画图的一些基础知识，以及要注意的一些坑。'
 ---
@@ -83,7 +83,7 @@ Graphics graph = Graphics.FromImage(bmp);
 
 # `GDI+` 的坐标系
 `GDI+` 的坐标系是个二维坐标系，不过又有点不一样，它的原点是在左上角的。如下图：  
-![](http://120.77.171.203/images/blog-img/8.png)
+![](http://120.77.171.203:8080/images/blog-img/8.png)
 
 ---
 
