@@ -125,8 +125,7 @@ private static void Main(string[] args)
     try
     {
         Console.WriteLine("Start drawing ...");
-        DrawingEntity drawing = new DrawingEntity();
-        System.Drawing.Bitmap bmp = drawing.AddText(@"D:\test\1.png", "176.94,150.48", 66, "写点啥好呢", 30);
+        System.Drawing.Bitmap bmp = AddText(@"D:\test\1.png", "176.94,150.48", 66, "写点啥好呢", 30);
         bmp.Save(@"D:\test\output.png");
         bmp.Dispose();
         Console.WriteLine("Done!");
