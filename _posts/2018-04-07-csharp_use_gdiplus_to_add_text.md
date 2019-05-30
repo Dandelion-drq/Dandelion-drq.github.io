@@ -161,10 +161,8 @@ public float Height { get; set; }
     {
         try
         {
-            DrawingEntity drawing = new DrawingEntity();
-
             Console.WriteLine("Start drawing ...");
-            System.Drawing.Bitmap bmp = drawing.AddText(@"D:\test\39585148.png", "177.75,63.84", "674.73, 141.6", "大海啊，全是浪");
+            System.Drawing.Bitmap bmp = AddText(@"D:\test\39585148.png", "177.75,63.84", "674.73, 141.6", "大海啊，全是浪");
             bmp.Save(@"D:\test\output.png");
             bmp.Dispose();
             Console.WriteLine("Done!");
