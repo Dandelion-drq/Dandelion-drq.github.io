@@ -106,7 +106,6 @@ categories: life
 再启动一下 `jekyll serve` 就能看到效果了。
 
 ![](http://120.77.171.203:8080/images/blog-img/4.jpg)
-![](http://120.77.171.203:8080/images/blog-img/5.jpg)
 
 ## 4. 使用 `jekyll` 主题美化网站
 
