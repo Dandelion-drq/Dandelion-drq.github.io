@@ -70,5 +70,3 @@ export default browser;
 
 反思一下，自己对于框架这些还是停留于用的层面，有时候看到些底层一点的报错就毫无头绪，盲目google了。但是其实有时候仔细分析一下错误提示，可能会发现有用的信息……  
 像这次的报错，我直接搜 `render function or template not defined in component: anonymous` 这个错误提示找到的 `github issue` 都是没有解决然而又 close 了的，因为这其实不是 `Nuxt` 的 bug，而是因为自己不知道要考虑同构代码的坑，导致服务端渲染失败。所以看问题还是要自己先分析思考，而且对于自己项目中用到的框架，还是需要去了解一下它的原理的，要知其然更要知其所以然！！
-
-emmm……废话了一堆，在这立个flag，下一阶段任务是学 `node.js`，加油~~
