@@ -2,7 +2,7 @@
 layout: post
 title: '网页如何与小程序交互通信'
 categories: 前端
-tags: vue nuxt
+tags: 小程序 web
 excerpt: '记录了网页与小程序交互通信的实现方式和一些坑。'
 ---
 
