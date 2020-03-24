@@ -9,7 +9,7 @@ cover: 'http://120.77.171.203/assets/img/posts/2020-03/cover.jpg'
 
 这是项目之前遇到的一个bug，最终发现是由于 `reset Vuex state` 不正确，污染了 `initState` 导致的，隐藏得还挺深的，在这里记录一下。
 
-（PS：想直接看代码实现的同学可以从第三节，**正确地 `reset module state` 的姿势** 开始看）
+（PS：想直接看代码实现的同学可以从第三节 **正确地 `reset module state` 的姿势** 开始看）
 
 
 # 背景
@@ -102,7 +102,7 @@ export const getters = {
 
 问题就出在上面的 `RESET_ALL_FILTERS` 方法。这是网上找到的比较多人建议的 `reset state` 的方法。  
 
-其实这种实现方式在大部分情况下还是work的，但是！！因为我们这个分类页的 `state` 是个层级比较深的对象，而里面 `state[key] = Object.assign({}, initState[key])` 这一句，就是关键！  
+其实这种实现方式在大部分情况下还是work的，但是！！因为我们这个分类页的 `state` 是个层级比较深的对象，而里面 `Object.assign(state[key], initState[key])` 这一句，就是关键！  
 因为 `Object.assign` 方法，其实是浅拷贝，所以当重置 `priceRange` 的时候，由于 `priceRange` 是个对象，那生成的 `target`【`Object.assign(target, ...sources)`】其实只是把引用指向了 `initState.priceRange` 的引用，也就是说，经过第一次重置之后，`initState` 的 `priceRange` 和当前的 `category state` 的 `priceRange` 是指向了同一块内存的。  
 所以，当后面再次设置性别和价格然后点重置的时候，性别可以正常重置，但是价格已经无法重置了，因为 `initState` 已经被污染了！！
 
