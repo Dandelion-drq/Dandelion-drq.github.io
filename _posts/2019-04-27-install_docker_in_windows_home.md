@@ -2,7 +2,7 @@
 layout: post
 title: 'win10 家庭版安装 Docker 踩坑'
 categories: 其他
-tags: docker
+tags: Docker
 excerpt: '记录了在 win10 家庭版安装使用 Docker 的踩坑过程……'
 ---
 

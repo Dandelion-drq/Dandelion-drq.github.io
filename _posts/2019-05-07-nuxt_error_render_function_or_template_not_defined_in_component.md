@@ -2,7 +2,7 @@
 layout: post
 title: 'Nuxt 报错：render function or template not defined in component: anonymous'
 categories: 前端
-tags: vue nuxt
+tags: Vue Nuxt
 excerpt: '记录了解决 Nuxt 报错 render function or template not defined in component: anonymous 问题的思路和办法'
 ---
 

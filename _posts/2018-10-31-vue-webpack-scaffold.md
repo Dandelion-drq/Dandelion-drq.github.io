@@ -1,15 +1,15 @@
 ---
 layout: post
-title: '不使用 vue-cli 与 vue 模版，使用 Vue2.x + webpack4.x 从零开始一步步搭建项目框架'
+title: '不使用 vue-cli 与 Vue 模版，使用 Vue2.x + webpack4.x 从零开始一步步搭建项目框架'
 categories: 前端
-tags: webpack vue
-excerpt: '本文介绍了在不使用 vue-cli 与 vue 模版的情况下，如何使用 Vue2.x + webpack4.x 从零开始一步步搭建项目框架。'
+tags: webpack Vue
+excerpt: '本文介绍了在不使用 vue-cli 与 Vue 模版的情况下，如何使用 Vue2.x + webpack4.x 从零开始一步步搭建项目框架。'
 ---
 
 ## 说明
 
 这是我根据慕课网上的一个课程 [Vue+Webpack打造todo应用](https://www.imooc.com/learn/935) 过程一步步搭下来的框架，去掉了业务相关的逻辑。  
-项目最终的效果包括了引入vue框架；使用CSS预处理器；使用babel；引用图片等静态资源；区分开发环境与生成环境，并做相应优化等。基本接近真正做项目时候的配置。  
+项目最终的效果包括了引入Vue框架；使用CSS预处理器；使用babel；引用图片等静态资源；区分开发环境与生成环境，并做相应优化等。基本接近真正做项目时候的配置。  
 **但是！！**毕竟是我个人根据练习课程搭的框架，跟真实工作可能有区别，**请谨慎直接用于工作环境！！！**
 
 项目的最终成果看这里：https://gitee.com/Dandelion_/vue-webpack-scaffold  
