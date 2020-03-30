@@ -53,7 +53,7 @@ sns:
   douban: '//www.douban.com/people/Dandelion_drq/'
   zhihu: '//www.zhihu.com/people/Dandelion_H2o'
   jianshu: '//www.jianshu.com/u/fc14d8003cbf'
-  weibo: '//weibo.com/ildandelion'
+  juejin: '//juejin.im/user/59c718d56fb9a00a571d4240'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
