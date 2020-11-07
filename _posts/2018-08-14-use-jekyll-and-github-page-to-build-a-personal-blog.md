@@ -4,7 +4,7 @@ title: '使用 jekyll + github pages 搭建个人博客的记录'
 subtitle: '终于搭建起了个人博客，写下第一篇文章记录一下'
 date: 2018-08-14
 categories: web
-cover: 'http://120.77.171.203/assets/img/posts/2018-08/0.jpg'
+cover: '/assets/img/posts/2018-08/0.jpg'
 tags: jekyll github-pages blog
 ---
 
@@ -42,7 +42,9 @@ tags: jekyll github-pages blog
 
 支持 `markdown` ，非常方便。
 
-下面我们开始安装 `jekyll` 并且新建一个项目看一下。
+下面我们开始安装 `jekyll` 并且新建一个项目看一下。  
+PS：`jekyll` 是一个 `Ruby Gem` 组件，所以使用之前需要系统先安装 `Ruby`。详见文档 [Jekyll 安装](https://www.jekyll.com.cn/docs/installation/)。
+
 ```bash
 # 安装jekyll
 gem install jekyll
@@ -56,14 +58,15 @@ cd myblog
 
 创建成功后的项目目录是这样的
 
-![](http://120.77.171.203:8080/images/blog-img/1.jpg)
+![](/assets/img/posts/2018-08/1.jpg)
 
 因为现在最新版(3.8.3)的 `jekyll new` 命令创建的项目默认已经用了主题了（可以在 `_config.yml` 配置文件下看到 `theme: minima` 这一行），因此我们要安装相应的依赖。
 
 ```bash
 # 安装依赖包
-gem install jekyll bundler
-bundle install # 这个命令会自动安装项目所需的依赖
+gem install bundler
+bundle install 
+# 执行这两个命令后会自动安装项目所需的依赖，比如用到了某些主题，某些插件这些
 
 # 启动一个本地服务器，而且启动后还会自动监听文件，如果本地修改了某个文件，会重新生成静态页面，我们只需要在浏览器刷新一下就好
 jekyll serve
@@ -71,11 +74,11 @@ jekyll serve
 
 启动后应该能看到以下的输出
 
-![](http://120.77.171.203:8080/images/blog-img/2.jpg)
+![](/assets/img/posts/2018-08/2.jpg)
 
 这时候我们就能在本地通过 `http://127.0.0.1:4000/` 来预览效果了。
 
-![](http://120.77.171.203:8080/images/blog-img/3.jpg)
+![](/assets/img/posts/2018-08/3.jpg)
 
 PS：有一些预设的设置可以在 `_config.yml` 配置文件里面修改。
 
@@ -105,7 +108,8 @@ categories: life
 
 再启动一下 `jekyll serve` 就能看到效果了。
 
-![](http://120.77.171.203:8080/images/blog-img/4.jpg)
+![](/assets/img/posts/2018-08/4.jpg)
+![](/assets/img/posts/2018-08/5.jpg)
 
 ## 4. 使用 `jekyll` 主题美化网站
 
