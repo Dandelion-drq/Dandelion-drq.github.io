@@ -3,7 +3,7 @@ layout: post
 title: '如何正确地 reset Vuex module state'
 categories: 前端
 tags: Vue Vuex
-cover: 'http://120.77.171.203/assets/img/posts/2020-03/cover.jpg'
+cover: '/assets/img/posts/2020-03/cover.jpg'
 ---
 
 
@@ -20,12 +20,12 @@ cover: 'http://120.77.171.203/assets/img/posts/2020-03/cover.jpg'
 
 在选择了任意分类项后点击 `重置` 可以把所有选中的项或输入的值恢复到未设置状态。
 
-![](http://120.77.171.203/assets/img/posts/2020-03/1.jpg)
+![](/assets/img/posts/2020-03/1.jpg)
 
 
 其中 `价格范围` 是输入最小值和最大值。
 
-![](http://120.77.171.203/assets/img/posts/2020-03/2.jpg)
+![](/assets/img/posts/2020-03/2.jpg)
 
 
 ## 一个bug
@@ -35,7 +35,7 @@ cover: 'http://120.77.171.203/assets/img/posts/2020-03/cover.jpg'
 
 为了更好地说明问题，我写了个简单的demo页面，给大家演示一下。
 
-![](http://120.77.171.203/assets/img/posts/2020-03/demo.gif)
+![](/assets/img/posts/2020-03/demo.gif)
 
 
 # 错误的示范

@@ -112,7 +112,7 @@ npm i style-loader css-loader vue-template-compiler --save-dev
 安装好依赖后运行 `npm run build` 来构建项目。
 构建成功后在项目根目录启动一个静态资源服务器，然后浏览就可以看到以下页面了。
 
-![](http://120.77.171.203/assets/img/posts/2018-10/1.jpg)
+![](/assets/img/posts/2018-10/1.jpg)
 
 ## 6. 添加图片、CSS 预处理器等 loader
 
@@ -188,7 +188,7 @@ npm i file-loader url-loader node-sass sass-loader --save-dev
 ```
 
 运行 `npm run build`，刷新页面，能看到如下效果：  
-![](http://120.77.171.203/assets/img/posts/2018-10/2.jpg)
+![](/assets/img/posts/2018-10/2.jpg)
 button 的背景图是 1.97kb，小于 8192byte，可以看到图片已经被转换成 base64 的内容了。
 
 ## 7. 添加 `postcss-loader` + `autoprefixer`，自动添加 `css` 浏览器前缀
@@ -282,7 +282,7 @@ module.exports = {
 ```
 
 运行 `npm run build`，刷新页面，能看到如下效果：  
-![](http://120.77.171.203/assets/img/posts/2018-10/3.jpg)
+![](/assets/img/posts/2018-10/3.jpg)
 可以看到 `flex` 已经加上了浏览器前缀了。
 
 ## 8. 添加 `babel-loader`，转译 `es6` 代码为 `es5` 代码
@@ -331,10 +331,10 @@ class Person {
 ```
 
 在浏览器查看输出，如下图：
-![](http://120.77.171.203/assets/img/posts/2018-10/4.jpg)
+![](/assets/img/posts/2018-10/4.jpg)
 
 如果注释掉 `webpack.config.js` 里 `babel-loader` 这条规则，则编译之后如下：
-![](http://120.77.171.203/assets/img/posts/2018-10/5.jpg)
+![](/assets/img/posts/2018-10/5.jpg)
 可以看到 `babel-loader` 已经起作用了。
 
 ## 9. 添加 `html-webpack-plugin`，自动生成 `index.html` 的内容
@@ -380,7 +380,7 @@ npm i html-webpack-plugin --save-dev
 修改 `index.html`，把原来引用 `bundle.js` 的 `<script>` 去掉。
 
 然后我们 `build` 一下，看 `dist` 文件夹的输出。
-![](http://120.77.171.203/assets/img/posts/2018-10/6.jpg)
+![](/assets/img/posts/2018-10/6.jpg)
 可以看到 `dist` 文件夹下多了 `index.html` 文件，而且文件内容自动加上了编译出来的 `bundle.js` 文件的引用。
 
 ## 10. 添加 `clean-webpack-plugin`，每次 `build` 之前可以自动先清除输出文件夹

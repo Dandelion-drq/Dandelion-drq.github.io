@@ -20,7 +20,7 @@ footer:
 author: 'Dandelion'
 nickname: 'Dandelion'
 bio: '立志做一只有趣的不是渣渣的程序员！'
-avatar: 'http://120.77.171.203/assets/img/avatar.png'
+avatar: '/assets/img/avatar.png'
 
 # Search
 search: true

@@ -9,7 +9,7 @@ excerpt: '记录了解决 Nuxt 报错 render function or template not defined in
 ## 问题
 在 dev hot reload 模式下开发，本来是好的，添加了一段代码之后出现了这个错误。  
 详细的错误信息如下：  
-![](http://120.77.171.203/assets/img/posts/2019-05/1.jpg)
+![](/assets/img/posts/2019-05/1.jpg)
 
 这提示看起来是系统级的错误，没什么头绪。于是google之，是找到挺多有提到这个错误的 issue，然而……都没看到有解决办法。
 
@@ -37,7 +37,7 @@ export default browser;
 
 以上是我添加的 `browser.js` 文件，然后我在一个 `.vue` 文件中 `import` 了它。  
 看这部分代码是没问题的，于是我再仔细看报错内容（PS：把那个 `show all frames` 勾选上）……  
-![](http://120.77.171.203/assets/img/posts/2019-05/2.jpg)
+![](/assets/img/posts/2019-05/2.jpg)
 这次发现了个关键点——是 `server render` 的错误。
 
 嗯~~这就好理解了。  

@@ -16,7 +16,7 @@ excerpt: '记录了在 win10 家庭版安装使用 Docker 的踩坑过程……'
 
 ……怎么可能呢！！
 于是google之，发现是我自己的锅，官方文档其实已经写了系统要求和不满足的解决办法了，是我自己没看……= =  
-![](http://120.77.171.203/assets/img/posts/2019-04/1.jpg)
+![](/assets/img/posts/2019-04/1.jpg)
 https://docs.docker.com/docker-for-windows/install/
 
 好吧，那就安装 `Docker Toolbox` 咯~  
@@ -24,18 +24,18 @@ https://docs.docker.com/docker-for-windows/install/
 按着文档走就好。
 
 PS：如果电脑已经安装过 `Virtual Box`，列表就不要勾选这个。如果电脑已经装过 `Git`，也可以不用勾选。 
-![](http://120.77.171.203/assets/img/posts/2019-04/2.jpg)
+![](/assets/img/posts/2019-04/2.jpg)
 
 安装完之后就会多了两个快捷方式  
-![](http://120.77.171.203/assets/img/posts/2019-04/3.jpg)
+![](/assets/img/posts/2019-04/3.jpg)
 
 双击 `Docker Quickstart Terminal` 启动 `Docker`，这个时候我遇到了一个问题
-![](http://120.77.171.203/assets/img/posts/2019-04/4.jpg)  
+![](/assets/img/posts/2019-04/4.jpg)  
 原因是我之前装过 `Git` 了，不是在默认路径的，所以现在它找不到 `bash.exe` 的路径。  
 解决办法：[解决点击Docker出现windows 正在查找bash.exe。如果想亲自查找文件，请点击“浏览”的问题](https://blog.csdn.net/A632189007/article/details/78601213)
 
 改完之后可以正常启动了，显示如下界面就是成功了
-![](http://120.77.171.203/assets/img/posts/2019-04/5.jpg)
+![](/assets/img/posts/2019-04/5.jpg)
 我们还可以执行以下 `docker version` 命令看看，有正常输出就说明没问题了。
 
 啊好开心终于安装好了，接下来迫不及待试试第一个镜像~~  
@@ -76,15 +76,15 @@ docker-mechine restart default # 重启docker虚拟机
 > 5. 把disk从“控制器SATA”中删除，然后重新添加我们刚才复制到另外一个磁盘上的那个文件。
 > 
 > 这是我设置好后的界面，可以看到我在步骤3复制的时候，复制到E:\VirtualBox\default\dockerdisk.vdi文件去了。
-> ![](http://120.77.171.203/assets/img/posts/2019-04/6.jpg)
+> ![](/assets/img/posts/2019-04/6.jpg)
 
 ---
 
 最后还有一个小Tips：  
 Docker容器是在VirtualBox的虚拟机里面，不是在Windows里面，所以如果要访问用Docker容器启动的网站的话要做端口映射，而且在本机【自己的windows】浏览器访问的时候要通过虚拟机ip（可以通过 `docker-machine env` 命令查看）访问。  
 像这样：  
-![](http://120.77.171.203/assets/img/posts/2019-04/7.jpg)
-![](http://120.77.171.203/assets/img/posts/2019-04/8.jpg)
+![](/assets/img/posts/2019-04/7.jpg)
+![](/assets/img/posts/2019-04/8.jpg)
 
 ---
 

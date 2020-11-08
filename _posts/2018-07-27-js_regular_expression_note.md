@@ -2,7 +2,7 @@
 layout: post
 title: 'javascript 正则表达式的使用'
 categories: 前端
-cover: 'http://120.77.171.203/assets/img/posts/2018-07/1.jpg'
+cover: '/assets/img/posts/2018-07/1.jpg'
 tags: javascript 正则表达式
 excerpt: 整理的关于js正则表达式的一些笔记。
 ---
