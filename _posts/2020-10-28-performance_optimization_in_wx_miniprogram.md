@@ -4,6 +4,7 @@ title: '小程序性能优化实践总结'
 categories: 前端
 tags: 小程序 性能优化
 excerpt: '记一次微信小程序性能优化实践。'
+cover: '/assets/img/posts/2020-10/cover.jpg'
 ---
 
 ## 项目简述 & 问题
