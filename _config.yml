@@ -20,7 +20,7 @@ footer:
 author: 'Dandelion'
 nickname: 'Dandelion'
 bio: '立志做一只有趣的不是渣渣的程序员！'
-avatar: '/assets/img/avatar.png'
+avatar: '/assets/img/avatar.jpg'
 
 # Search
 search: true
@@ -38,7 +38,7 @@ mathjax: true
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: ['wechat', 'weibo', 'douban']
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
@@ -50,10 +50,10 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/Dandelion-drq'
-  douban: '//www.douban.com/people/Dandelion_drq/'
-  zhihu: '//www.zhihu.com/people/Dandelion_H2o'
-  jianshu: '//www.jianshu.com/u/fc14d8003cbf'
   juejin: '//juejin.im/user/59c718d56fb9a00a571d4240'
+  jianshu: '//www.jianshu.com/u/fc14d8003cbf'
+  zhihu: '//www.zhihu.com/people/Dandelion_H2o'
+  douban: '//www.douban.com/people/Dandelion_drq/'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
