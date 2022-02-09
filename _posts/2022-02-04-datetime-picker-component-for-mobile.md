@@ -579,4 +579,6 @@ export default {
 }
 ```
 
-完成了以上3点，日期选择器组件就写好了，完整代码以及使用demo见：[https://github.com/Dandelion-drq/uniapp-datetime-picker](https://github.com/Dandelion-drq/uniapp-datetime-picker)，欢迎喜欢的朋友给个star~
+完成了以上3点，日期选择器组件就写好了，完整代码以及使用demo见：[https://github.com/Dandelion-drq/uniapp-datetime-picker](https://github.com/Dandelion-drq/uniapp-datetime-picker)
+
+欢迎喜欢的朋友给个star~
