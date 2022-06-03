@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'C# 使用 GDI+ 给图片添加文字，并使文字自适应矩形区域'
+title: "C# 使用 GDI+ 给图片添加文字，并使文字自适应矩形区域"
 categories: 后台
 tags: C#
-excerpt: '本文介绍了 C# 如何使用 GDI+ 为图片添加文字，并且可以使文字字体大小自适应。'
+excerpt: "本文介绍了 C# 如何使用 GDI+ 为图片添加文字，并且可以使文字字体大小自适应。"
 ---
 
 这篇文章是 `GDI+` 总结系列的第二篇，如果对 `GDI+` 的基础使用不熟悉的朋友可以先看第一篇文章[《C# 使用 GDI+ 画图》](https://dandelion-drq.github.io/2018/04/01/use-gdiplus-to-draw-image-in-csharp.html)。
@@ -14,7 +14,7 @@ excerpt: '本文介绍了 C# 如何使用 GDI+ 为图片添加文字，并且可
 
 需求是要做一个编辑文字的页面。用户在网页端写文字，文字区域是个矩形框，用户可以通过下方的拖动条调节文字大小。  
 如下图：  
-![](http://120.77.171.203:8080/images/blog-img/9.png)
+![](/assets/img/posts/2018-04/9.png)
 
 提交数据的时候前端传文字区域的左上角和右下角定位给后台。因为前端的字体大小单位与后端没什么关系，所以不能直接传字体大小，也就是后端要根据矩形区域以及文字内容来自己推算用什么样的字体大小合适。
 
@@ -26,6 +26,7 @@ excerpt: '本文介绍了 C# 如何使用 GDI+ 为图片添加文字，并且可
 
 `Graphics` 类有个 `MeasureString` 方法，可以用来计算以当前字体写出来的文字会占据多少像素。  
 如下：
+
 ```csharp
 //
 // 摘要:
@@ -49,6 +50,7 @@ public SizeF MeasureString(string text, Font font);
 ```
 
 这个方法返回的 `SizeF` 包含 `Width` 和 `Height` 属性，读取这两个属性可以获取到文字内容所占的宽高(以像素为单位)。
+
 ```csharp
 //
 // 摘要:
@@ -72,7 +74,8 @@ public float Height { get; set; }
 
 # 具体实现
 
-- 添加文字方法
+-   添加文字方法
+
 ```csharp
     /// <summary>
     /// 图片添加文字，文字大小自适应
@@ -155,7 +158,8 @@ public float Height { get; set; }
     }
 ```
 
-- 测试调用
+-   测试调用
+
 ```csharp
     private static void Main(string[] args)
     {
@@ -183,7 +187,7 @@ public float Height { get; set; }
 
 最终效果：
 
-![](http://120.77.171.203:8080/images/blog-img/10.png)
+![](/assets/img/posts/2018-04/10.png)
 
 ---
 
